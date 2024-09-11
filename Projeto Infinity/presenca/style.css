@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: rgb(28, 25, 25);
+    width: auto;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    width: 35vw;
+    height: 80vh;
+    background-color: rgb(41, 41, 41);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.beleza {
+    display: flex;
+    width: 85%;
+    height: 0.1%;
+    background-color: #EEEEEE;
+}
+
+.apresentacao {
+    margin-top: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EEEEEE;
+    font-size: 2.24rem;
+    padding: 5%;
+}
+
+.interativo {
+    width: 30vw;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.botoes {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao {
+    background-color: rgb(28, 25, 25);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 40%;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 1.15rem;
+    transition: 0.3s;
+}
+
+#voltar:hover {
+    background-color: #f1f1f1;
+    color: red;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#geralPresente:hover {
+    background-color: rgba(22, 255, 18, 0.74);
+    color: #000000;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.alunosInterface {
+    width: 27vw;
+    height: 25rem;
+    background-color: rgba(53, 45, 45, 0.5);
+    display: flex;
+    flex-flow: column;
+}
+
+.lista{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: auto;
+    height: 100%;
+    scrollbar-width: thin;
+}
+
+.alunosLegenda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EEEEEE;
+    background-color: rgb(155, 41, 41);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.Aluno{
+    list-style: none;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: #00000063;
+    color: #f1f1f1;
+    margin-bottom: 0.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ok{
+    background-color: green;
+}
+
+.Aluno:hover{
+    cursor: pointer;
+}
+
+.AlunoObs{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #f1f1f1;
+}
+
+.AlunoObs:hover{
+    cursor: pointer;
+    background-color: bisque;
+}
+
+.black{
+    width: 100vh;
+    height: 100vh;
+    background-color: #00000015;
+}
+
+.listaAlunos{
+    list-style: none;
+    padding: 0;
+}
+
+#relatorio{
+    margin-top: 2.5%;
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(28, 25, 25);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 1.15rem;
+    transition: 0.3s;
+}
+
+#relatorio:hover {
+    background-color: rgb(241, 227, 21);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
